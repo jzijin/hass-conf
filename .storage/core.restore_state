@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,205 +10,223 @@
                     "user_id": "428bba45052a4a4fa401b8e42a49cc5c"
                 },
                 "context": {
-                    "id": "69ba2bb52e92464cb6a42a9b579ea3c2",
+                    "id": "0d323d9abf2645668d1ab983609b4ad0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.jzijin",
-                "last_changed": "2019-07-16T12:18:09.518083+00:00",
-                "last_updated": "2019-07-16T12:18:15.055594+00:00",
+                "last_changed": "2019-07-16T12:51:00.610252+00:00",
+                "last_updated": "2019-07-16T12:51:09.936877+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "call mqtt script",
-                    "last_triggered": "2019-07-16T12:18:37.339836+00:00"
-                },
-                "context": {
-                    "id": "e6f9d94deaa54b9494e0c92c534ae982",
-                    "parent_id": "d55e473443b545e4904e57321c19ea5e",
-                    "user_id": null
-                },
-                "entity_id": "automation.call_mqtt_script",
-                "last_changed": "2019-07-16T12:18:09.518219+00:00",
-                "last_updated": "2019-07-16T12:18:37.340245+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Power state on HA start-up",
-                    "last_triggered": "2019-07-16T12:18:15.064739+00:00"
-                },
-                "context": {
-                    "id": "fad8c50c05f448f5b45bb1f3bf726c29",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.power_state_on_ha_start_up",
-                "last_changed": "2019-07-16T12:18:09.518341+00:00",
-                "last_updated": "2019-07-16T12:18:15.064865+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Enable MQTT discovery for all devices",
-                    "last_triggered": "2019-07-16T12:18:15.065080+00:00"
-                },
-                "context": {
-                    "id": "93482e93369f47518511d059d3bf505a",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.enable_mqtt_discovery_for_all_devices",
-                "last_changed": "2019-07-16T12:18:09.518462+00:00",
-                "last_updated": "2019-07-16T12:18:15.065151+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "call shell script",
-                    "last_triggered": "2019-07-16T11:24:48.764634+00:00"
-                },
-                "context": {
-                    "id": "014851fb450546f5be101b13b1a33c41",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.call_shell_script",
-                "last_changed": "2019-07-16T12:18:09.518570+00:00",
-                "last_updated": "2019-07-16T12:18:09.518570+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "call http script",
                     "last_triggered": "2019-07-16T12:18:20.907998+00:00"
                 },
                 "context": {
-                    "id": "f902e3dc930348e38dd6abb176092366",
+                    "id": "953dadad343c416896057c9ab5add9de",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.call_http_script",
-                "last_changed": "2019-07-16T12:18:09.518675+00:00",
-                "last_updated": "2019-07-16T12:18:20.908414+00:00",
+                "last_changed": "2019-07-16T12:51:00.610381+00:00",
+                "last_updated": "2019-07-16T12:51:00.610381+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "call mqtt script",
+                    "last_triggered": "2019-07-16T12:18:37.339836+00:00"
+                },
+                "context": {
+                    "id": "d82d02e3595a4f2aa3d043b51bf59ee3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.call_mqtt_script",
+                "last_changed": "2019-07-16T12:51:00.610492+00:00",
+                "last_updated": "2019-07-16T12:51:00.610492+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Power state on HA start-up",
+                    "last_triggered": "2019-07-16T12:51:09.947165+00:00"
+                },
+                "context": {
+                    "id": "a48e24c1650948228f47b544c3028738",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.power_state_on_ha_start_up",
+                "last_changed": "2019-07-16T12:51:00.610602+00:00",
+                "last_updated": "2019-07-16T12:51:09.947271+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Enable MQTT discovery for all devices",
+                    "last_triggered": "2019-07-16T12:51:09.949491+00:00"
+                },
+                "context": {
+                    "id": "f0120672ece342efbf1366b21c233fc3",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.enable_mqtt_discovery_for_all_devices",
+                "last_changed": "2019-07-16T12:51:00.610713+00:00",
+                "last_updated": "2019-07-16T12:51:09.949740+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "when the relay1 is on turn the relay6 on",
+                    "last_triggered": null
+                },
+                "context": {
+                    "id": "fe251909fba84d9eb1a524ae0b24e32b",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.when_the_relay1_is_on_turn_the_relay6_on",
+                "last_changed": "2019-07-16T12:51:00.610824+00:00",
+                "last_updated": "2019-07-16T12:51:00.610824+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "call shell script",
+                    "last_triggered": "2019-07-16T13:21:48.631657+00:00"
+                },
+                "context": {
+                    "id": "2821b9243fa14ea388db541a38db1c97",
+                    "parent_id": "0739621a407c4a2ca1b05efbfe9d04b6",
+                    "user_id": null
+                },
+                "entity_id": "automation.call_shell_script",
+                "last_changed": "2019-07-16T12:51:00.610959+00:00",
+                "last_updated": "2019-07-16T13:21:48.631933+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay1"
                 },
                 "context": {
-                    "id": "8caa542b114148129775ef87742b1968",
+                    "id": "13422788912f4a8ca57b2ff15e5b1fac",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay1",
-                "last_changed": "2019-07-16T12:18:09.541326+00:00",
-                "last_updated": "2019-07-16T12:18:09.541326+00:00",
+                "last_changed": "2019-07-16T13:21:49.663135+00:00",
+                "last_updated": "2019-07-16T13:21:49.663135+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay2"
                 },
                 "context": {
-                    "id": "71b0cdf0f8ed469d81df932811e9a165",
+                    "id": "a803031645bc4a06a5f660d0d030baf0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay2",
-                "last_changed": "2019-07-16T12:18:15.089797+00:00",
-                "last_updated": "2019-07-16T12:18:15.089797+00:00",
-                "state": "on"
+                "last_changed": "2019-07-16T12:51:00.631061+00:00",
+                "last_updated": "2019-07-16T12:51:00.631061+00:00",
+                "state": "off"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay3"
                 },
                 "context": {
-                    "id": "d55e473443b545e4904e57321c19ea5e",
+                    "id": "3b344cd42e594edd8a48ef437bb0e522",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay3",
-                "last_changed": "2019-07-16T12:18:37.152242+00:00",
-                "last_updated": "2019-07-16T12:18:37.152242+00:00",
-                "state": "on"
+                "last_changed": "2019-07-16T12:51:00.631168+00:00",
+                "last_updated": "2019-07-16T12:51:00.631168+00:00",
+                "state": "off"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay4"
                 },
                 "context": {
-                    "id": "a8d8b4d2f0484f9fbaf34a8bc674cb80",
+                    "id": "5749fcd7002b493ba28eb64ff5ebe4ed",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay4",
-                "last_changed": "2019-07-16T12:18:09.541680+00:00",
-                "last_updated": "2019-07-16T12:18:09.541680+00:00",
+                "last_changed": "2019-07-16T12:51:00.631291+00:00",
+                "last_updated": "2019-07-16T12:51:00.631291+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay5"
                 },
                 "context": {
-                    "id": "bd39b542b4de4a588248d92663fa0aba",
+                    "id": "f25f413a56bf495194b9f1bc840bb2c7",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay5",
-                "last_changed": "2019-07-16T12:18:09.541785+00:00",
-                "last_updated": "2019-07-16T12:18:09.541785+00:00",
+                "last_changed": "2019-07-16T12:51:00.631389+00:00",
+                "last_updated": "2019-07-16T12:51:00.631389+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-07-16T12:33:16.003391+00:00",
+            "last_seen": "2019-07-16T14:51:16.001792+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "relay6"
                 },
                 "context": {
-                    "id": "a2079241c1494650abb089fccd8d42ba",
+                    "id": "5e1c7b188cfd44c1b3e564e5203ec390",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "switch.relay6",
-                "last_changed": "2019-07-16T12:18:09.541883+00:00",
-                "last_updated": "2019-07-16T12:18:09.541883+00:00",
+                "last_changed": "2019-07-16T12:51:00.631492+00:00",
+                "last_updated": "2019-07-16T12:51:00.631492+00:00",
                 "state": "off"
             }
         },

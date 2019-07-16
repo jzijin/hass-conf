@@ -1,4 +1,36 @@
-2019-07-16 19:19:47 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.139815151622184] Received invalid command: shopping_list/items
-2019-07-16 19:21:41 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test
-2019-07-16 19:22:44 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test
-2019-07-16 19:23:24 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test
+2019-07-16 21:21:54 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: invalid template (TemplateSyntaxError: expected token 'name', got 'string') for dictionary value @ data['action'][0]['service_template']. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:23:32 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: invalid template (TemplateSyntaxError: expected token 'name', got 'string') for dictionary value @ data['action'][0]['service_template']. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:24:08 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: invalid template (TemplateSyntaxError: expected token 'name', got 'string') for dictionary value @ data['action'][0]['service_template']. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:25:32 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: invalid template (TemplateSyntaxError: expected token 'name', got 'string') for dictionary value @ data['action'][0]['service_template']. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:26:04 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: invalid template (TemplateSyntaxError: expected token 'name', got 'string') for dictionary value @ data['action'][0]['service_template']. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:27:31 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-16 21:38:28 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 1 s
+2019-07-16 21:40:39 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 2 s
+2019-07-16 21:42:52 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 4 s
+2019-07-16 21:45:07 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 8 s
+2019-07-16 21:47:24 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 16 s
+2019-07-16 21:49:50 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 32 s
+2019-07-16 21:51:05 ERROR (MainThread) [homeassistant.components.updater] Could not contact Home Assistant Update to check for updates
+2019-07-16 21:52:31 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 64 s
+2019-07-16 21:55:20 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 
+2019-07-16 21:55:20 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 19 minutes
+2019-07-16 21:55:46 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 128 s
+2019-07-16 21:59:16 WARNING (zeroconf-ServiceBrowser__axis-video._tcp.local.) [zeroconf] Exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/zeroconf.py", line 2245, in send
+    bytes_sent = s.sendto(packet, 0, (addr, port))
+OSError: [Errno 22] Invalid argument
+2019-07-16 22:00:04 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 256 s
+2019-07-16 22:06:32 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:13:42 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:14:31 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 
+2019-07-16 22:14:31 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 18 minutes
+2019-07-16 22:20:52 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:28:02 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:32:42 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 
+2019-07-16 22:32:42 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 18 minutes
+2019-07-16 22:35:13 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:42:23 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:49:33 WARNING (Thread-2) [homeassistant.components.mqtt] Disconnected from MQTT (1). Trying to reconnect in 300 s
+2019-07-16 22:50:53 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 
+2019-07-16 22:50:53 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 16 minutes

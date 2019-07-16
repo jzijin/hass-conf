@@ -56,3 +56,19 @@
     to: 'on'
   action:
     - service: shell_command.call_mqtt
+
+- alias: when the relay1 is on turn the relay6 on
+  trigger:
+    platform: state
+    entity_id: switch.relay1
+    from: 'off'
+    to: 'on'
+  action:
+    - service: 
+      service_template: >
+        {% if states('switch.relay3') is 'on' %}
+          switch.turn_on
+        {% else %}
+          switch.turn_off
+        {% endif %}
+      entity_id: switch.relay6
