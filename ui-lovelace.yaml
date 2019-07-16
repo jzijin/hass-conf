@@ -1,0 +1,138 @@
+title: My Awesome Home
+views:
+    # View tab title.
+  - title: Example
+    path: example
+    cards:
+        # The markdown card will render markdown text.
+      - type: markdown
+        title: Lovelace
+        content: >
+          Welcome to your **Lovelace UI**.
+  - title: Living room
+    path: living_room
+  - title: test
+    path: test
+    cards:
+      - type: entities #TODO:
+        title: Entities card sample all entities
+        show_header_toggle: true
+        entities: # main the all entities
+          - entity: switch.relay1
+            name: Alarm Panel
+          - switch.relay2
+          - switch.relay3
+          - switch.relay4
+          - switch.relay5
+
+
+      - type: entities
+        title: test
+        show_header_toggle: true
+        entities:
+          - type: call-service
+            icon: mdi:power
+            name: Bed light
+            action_name: Toggle light
+            service: light.toggle
+            service_data:
+              entity_id: light.bed_light
+          - type: divider
+          - type: weblink
+            name: Home Assistant
+            url: https://www.home-assistant.io/
+            icon: mdi:home-assistant
+      
+      - type: entity-button
+        name: Turn Off Lights
+        tap_action:
+          action: call-service
+          service: script.turn_on
+          service_data:
+            entity_id: script.turn_off_lights
+        entity: switch.relay1
+      
+      - type: entity-filter
+        entities:
+          - entity: switch.relay1
+            name: Bed
+          - switch.relay3
+          - switch.relay2
+        state_filter:   # only relay1 and relay2 and relay3 is on show
+          - "on"
+      
+
+      - type: gauge
+        name: With Severity
+        unit: '%'
+        entity: switch.relay1 # not numeric is wrong 
+        severity:
+          green: 0
+          yellow: 45
+          red: 85
+      
+
+      - type: glance
+        title: Better names
+        entities:
+          - entity: switch.relay1
+            name: Movement
+          - entity: switch.relay2
+          - entity: switch.relay3
+          - entity: switch.relay4
+          - entity: switch.relay5
+          - entity: switch.relay6
+          - entity: switch.relay7
+          - entity: switch.relay8
+            tap_action:
+              action: toggle
+      
+
+      - type: picture-elements
+        image: /local/House.png
+        elements:
+          # conditionally show TV off button shortcut when dad's away and daughter is home
+          - type: conditional
+            conditions:
+              - entity: sensor.presence_daughter
+                state: 'home'
+              - entity: sensor.presence_dad
+                state: 'not_home'
+            elements:
+              - type: state-icon
+                entity: switch.tv
+                tap_action:
+                  action: toggle
+                style:
+                  top: 47%
+                  left: 42%
+      
+      # - type: plant-status
+      #   entity: switch.relay1
+      - type: shopping-list
+        title: Shopping List
+      
+      # - type: weather-forecast
+      #   entity: sun.sun
+
+      - type: picture-entity
+        image: https://www.home-assistant.io/images/default-social.png
+        entity: switch.relay1
+      
+      - type: markdown
+        content: >
+          ## Lovelace
+      - type: conditional
+        conditions:
+          - entity: light.bed_light
+            state: "on"
+          - entity: switch.decorative_lights
+            state_not: "off"
+        card:
+          type: entities
+          entities:
+            - device_tracker.demo_paulus
+            - cover.kitchen_window
+            - group.kitchen
+            - lock.kitchen_door
+            - light.bed_light

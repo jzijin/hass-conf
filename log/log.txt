@@ -1,0 +1,526 @@
+200
+http://jzijin.top/
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://jzijin.top/xmlrpc.php">
+	
+<title>Z.J. Jiang</title>
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Z.J. Jiang &raquo; Feed" href="http://jzijin.top/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Z.J. Jiang &raquo; 评论Feed" href="http://jzijin.top/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/jzijin.top\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.3"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='oblique-bootstrap-css'  href='http://jzijin.top/wp-content/themes/oblique/bootstrap/css/bootstrap.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://jzijin.top/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='http://jzijin.top/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/all.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shims-css'  href='http://jzijin.top/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/v4-shims.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='themeisle-block_styles-css'  href='http://jzijin.top/wp-content/plugins/themeisle-companion/vendor/codeinwp/gutenberg-blocks/build/style.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://jzijin.top/wp-includes/css/dashicons.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='obfx-module-pub-css-menu-icons-0-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='obfx-module-pub-css-menu-icons-1-css'  href='http://jzijin.top/wp-content/plugins/themeisle-companion/obfx_modules/menu-icons/css/public.css?ver=2.7.5' type='text/css' media='all' />
+<link rel='stylesheet' id='oblique-body-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C600italic%2C400%2C600&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oblique-headings-fonts-css'  href='//fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%2C700italic&#038;ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='oblique-style-css'  href='http://jzijin.top/wp-content/themes/oblique/style.css?ver=2.0.18' type='text/css' media='all' />
+<style id='oblique-style-inline-css' type='text/css'>
+.site-title { font-size:82px; }
+.site-description { font-size:18px; }
+.main-navigation li { font-size:16px; }
+.site-branding { padding:150px 0; }
+@media only screen and (max-width: 1024px) { .site-branding { padding:100px 0; } }
+.site-logo, .woocommerce .site-logo, .woocommerce-page .site-logo { max-width:200px; }
+.svg-block { fill:#1c1c1c;}
+.footer-svg.svg-block { fill:#17191B;}
+.site-footer { background-color:#17191B;}
+body { color:#50545C}
+.site-title a, .site-title a:hover { color:#f9f9f9}
+.site-description { color:#dddddd}
+.entry-title, .entry-title a { color:#000}
+.entry-meta, .entry-meta a, .entry-footer, .entry-footer a { color:#9d9d9d}
+.widget-area { background-color:#17191B}
+.widget-area, .widget-area a { color:#f9f9f9}
+.social-navigation li a { color:#ffffff}
+.sidebar-toggle, .comment-form, .comment-respond .comment-reply-title { color:#ffffff}
+
+</style>
+<link rel='stylesheet' id='oblique-font-awesome-css'  href='http://jzijin.top/wp-content/themes/oblique/fonts/fontawesome-all.min.css?ver=5.0.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/vendor/imagesloaded.pkgd.min.js?ver=1'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var oblique_disable_fitvids_var = {"oblique_disable_fitvids":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/scripts.js?ver=1'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/vendor/masonry-init.js?ver=1'></script>
+<link rel='https://api.w.org/' href='http://jzijin.top/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://jzijin.top/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://jzijin.top/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.0.3" />
+<!--[if lt IE 9]>
+<script src="http://jzijin.top/wp-content/themes/oblique/js/vendor/html5shiv.js"></script>
+<![endif]-->
+
+<style type="text/css" media="all">
+
+</style>
+			<style type="text/css">
+					.site-header {
+						background: url(http://jzijin.top/wp-content/uploads/2019/02/cropped-feng.jpg) no-repeat;
+						background-position: center top;
+						background-attachment: fixed;
+						background-size: cover;
+					}
+		</style>
+		</head>
+
+<body class="home blog">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">跳转到内容</a>
+
+		<div class="sidebar-toggle">
+			<i class="fa fa-bars"></i>
+			</div>
+
+	<div class="top-bar container">
+									<div class="header-search">
+				<form role="search" method="get" class="search-form" action="http://jzijin.top/">
+				<label>
+					<span class="screen-reader-text">搜索：</span>
+					<input type="search" class="search-field" placeholder="搜索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="搜索" />
+			</form>			</div>
+			</div>
+
+	<div class="svg-container nav-svg svg-block">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+	</div>	<header id="masthead" class="site-header" role="banner">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="site-branding">
+									<h1 class="site-title"><a href="http://jzijin.top/" rel="home">Z.J. Jiang</a></h1>
+					<h2 class="site-description"></h2>
+							</div><!-- .site-branding -->
+		</div>
+		<div class="svg-container header-svg svg-block">
+			
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+			</div>		
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content">
+		<div class="container content-wrapper">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			<div id="ob-grid" class="grid-layout">
+			
+				
+<article id="post-53" class="post-53 post type-post status-publish format-standard hentry category-uncategorized">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=53" rel="bookmark">二叉树的dfs和bfs</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=53" rel="bookmark"><time class="entry-date published updated" datetime="2019-03-22T20:04:43+00:00">2019年3月22日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=1">未分类</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=53">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-51" class="post-51 post type-post status-publish format-standard hentry category-uncategorized">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=51" rel="bookmark">MySQL 必知必会</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=51" rel="bookmark"><time class="entry-date published updated" datetime="2019-03-17T21:41:04+00:00">2019年3月17日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=1">未分类</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=51">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-49" class="post-49 post type-post status-publish format-standard hentry category-6">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=49" rel="bookmark">排序大杂烩 各种各样的排序</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=49" rel="bookmark"><time class="entry-date published updated" datetime="2019-03-12T16:34:07+00:00">2019年3月12日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=6">数据结构</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>再来直接上代码。</p>
+
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=49">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-47" class="post-47 post type-post status-publish format-standard hentry category-6">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=47" rel="bookmark">c语言 用循环链表实现约瑟夫环</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=47" rel="bookmark"><time class="entry-date published updated" datetime="2019-03-11T16:20:06+00:00">2019年3月11日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=6">数据结构</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>约瑟夫环</p>
+
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=47">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-45" class="post-45 post type-post status-publish format-standard hentry category-6">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=45" rel="bookmark">二叉树的遍历 先序 中序 后序 层序</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=45" rel="bookmark"><time class="entry-date published updated" datetime="2019-03-02T19:38:32+00:00">2019年3月2日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=6">数据结构</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=45">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-42" class="post-42 post type-post status-publish format-standard hentry category-6">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=42" rel="bookmark">二叉树中的递归</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=42" rel="bookmark"><time class="entry-date published updated" datetime="2019-02-21T12:34:51+00:00">2019年2月21日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=6">数据结构</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>二叉树这种数据结构非常适合用地柜来求解。类似像树这种结构都很适合用递归[&#8230;]</p>
+
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=42">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+			
+				
+<article id="post-37" class="post-37 post type-post status-publish format-standard hentry category-4 tag-5">
+	<div class="svg-container post-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1950 150">
+		  <g transform="translate(0,-902.36218)"/>
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z" />
+		  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+		  <path d="M 0,150 0,0 1950,0"/>
+		</svg>
+		</div>	
+
+		
+
+		<div class="post-inner no-thumb">
+			
+		<header class="entry-header">
+			<h2 class="entry-title"><a href="http://jzijin.top/?p=37" rel="bookmark">I&#8217;am Back</a></h2>
+						<div class="entry-meta">
+				<span class="posted-on"> <a href="http://jzijin.top/?p=37" rel="bookmark"><time class="entry-date published updated" datetime="2019-02-12T22:36:00+00:00">2019年2月12日</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="http://jzijin.top/?author=1">jzijin</a></span></span><span class="cat-link"><a href="http://jzijin.top/?cat=4">生活随谈</a></span>			</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p>2019/02/12。截至到今天，我关闭了大半年的网站被我重新开启了。[&#8230;]</p>
+
+					</div><!-- .entry-content -->
+			</div>
+				<a href="http://jzijin.top/?p=37">
+			<div class="read-more">
+				继续阅读 &hellip;			</div>
+		</a>
+	
+	<div class="svg-container post-bottom-svg svg-block">
+		
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+		</div>	
+</article><!-- #post-## -->
+
+						</div>
+
+			
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+
+
+
+	<nav id="site-navigation" class="main-navigation" role="navigation">
+		<div class="menu-%e9%a1%b6%e9%83%a8%e8%8f%9c%e5%8d%95-container"><ul id="primary-menu" class="menu"><li id="menu-item-40" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40"><a href="http://jzijin.top/?cat=4">生活随谈</a></li>
+</ul></div>	</nav><!-- #site-navigation -->
+	<nav class="sidebar-nav"></nav>
+
+
+
+			<aside id="search-3" class="widget widget_search"><h3 class="widget-title">搜索</h3><form role="search" method="get" class="search-form" action="http://jzijin.top/">
+				<label>
+					<span class="screen-reader-text">搜索：</span>
+					<input type="search" class="search-field" placeholder="搜索&hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="搜索" />
+			</form></aside><aside id="text-3" class="widget widget_text"><h3 class="widget-title">关于本站</h3>			<div class="textwidget"><p>这是个人博客网站。主要用于个人的记录</p>
+</div>
+		</aside><aside id="text-4" class="widget widget_text"><h3 class="widget-title">联系我</h3>			<div class="textwidget"><p><strong>QQ:</strong><br />
+1515196673</p>
+<p><strong>Email:</strong></p>
+<p>jzijin@163.com</p>
+</div>
+		</aside><aside id="meta-3" class="widget widget_meta"><h3 class="widget-title">功能</h3>			<ul>
+						<li><a href="http://jzijin.top/wp-login.php">登录</a></li>
+			<li><a href="http://jzijin.top/?feed=rss2">文章<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://jzijin.top/?feed=comments-rss2">评论<abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="https://cn.wordpress.org/" title="基于WordPress，一个优美、先进的个人信息发布平台。">WordPress.org</a></li>			</ul>
+			</aside>	
+</div><!-- #secondary -->
+
+		</div>
+	</div><!-- #content -->
+
+	<div class="svg-container footer-svg svg-block">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1890 150">
+			<g transform="translate(0,-902.36218)"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 898.41609,-33.21176 0.01,0 -0.005,-0.009 -0.005,0.009 z"/>
+			  <path d="m 1925,0 0,150 -1925,0"/>
+		</svg>
+	</div>	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="col-xs-12 col-md-6 site-info">
+			<a href="https://cn.wordpress.org/" rel="nofollow">自豪的采用了WordPress</a><span class="sep"> | </span>主题：<a href="http://themeisle.com/themes/oblique/" rel="nofollow">Oblique</a>由Themeisle设计</div>	<nav id="footernav" class="footer-navigation col-md-6 col-xs-12" role="navigation">
+			</nav><!-- #site-navigation -->
+		</div><!-- .site-info -->
+		</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/vendor/main.js?ver=5.0.3'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/navigation.js?ver=20120206'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-content/themes/oblique/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='http://jzijin.top/wp-includes/js/wp-embed.min.js?ver=5.0.3'></script>
+
+</body>
+</html>
+

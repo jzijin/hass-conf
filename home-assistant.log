@@ -1,0 +1,4 @@
+2019-07-16 19:19:47 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.139815151622184] Received invalid command: shopping_list/items
+2019-07-16 19:21:41 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test
+2019-07-16 19:22:44 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test
+2019-07-16 19:23:24 ERROR (MainThread) [homeassistant.components.homeassistant] Integration not found: test

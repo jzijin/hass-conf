@@ -1,0 +1,28 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "4e03a79093194874bd3d4473c366f065"
+                ],
+                "connections": [],
+                "id": "3ecfa35f8b894b48885196a2565d4a83",
+                "identifiers": [
+                    [
+                        "mqtt",
+                        "BF5BEC"
+                    ]
+                ],
+                "manufacturer": "Tasmota",
+                "model": "Generic",
+                "name": "iottest",
+                "name_by_user": null,
+                "sw_version": "6.6.0.1(sonoff)",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

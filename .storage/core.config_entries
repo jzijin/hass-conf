@@ -1,0 +1,34 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "ead238bc59fd4150bc2f198ce55b09b6",
+                "options": {},
+                "source": "onboarding",
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {
+                    "broker": "192.168.43.209",
+                    "discovery": true,
+                    "port": 1883
+                },
+                "domain": "mqtt",
+                "entry_id": "4e03a79093194874bd3d4473c366f065",
+                "options": {},
+                "source": "user",
+                "title": "192.168.43.209",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

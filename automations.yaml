@@ -1,0 +1,58 @@
+# Example automations.yaml entry
+# fist start sync the power message
+- alias: "Power state on HA start-up"
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    - service: mqtt.publish
+      data:
+        topic: "iottest/cmnd/state"
+        payload: ""
+
+# Example automations.yaml entry
+# Make all device auto discover by homeassistant
+- alias: "Enable MQTT discovery for all devices"
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    - service: mqtt.publish
+      data:
+        topic: "cmnd/sonoffs/SetOption19"
+        payload: "1"
+
+# automation for call test.py 
+# next step is to automation the whole test
+- alias: call shell script
+  trigger:
+    platform: state
+    entity_id: switch.relay1
+    # Optional
+    from: 'off'
+    # Optional
+    to: 'on'
+  action:
+    - service: shell_command.call_relay
+
+- alias: call http script
+  trigger:
+    platform: state
+    entity_id: switch.relay2
+    # Optional
+    from: 'off'
+    # Optional
+    to: 'on'
+  action:
+    - service: shell_command.call_http
+
+- alias: call mqtt script
+  trigger:
+    platform: state
+    entity_id: switch.relay3
+    # Optional
+    from: 'off'
+    # Optional
+    to: 'on'
+  action:
+    - service: shell_command.call_mqtt

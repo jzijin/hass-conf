@@ -1,0 +1,26 @@
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+# http:
+#   base_url: example.duckdns.org:8123
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+lovelace:
+  mode: yaml
+api: 
+
+shell_command:
+  # can call a general shell
+  call_relay: python /config/test-shell/test.py > /config/log/log.txt
+  # can call http shell
+  call_http: python /config/test-shell/test_http.py > /config/log/log.txt
+  # can call mqtt shell
+  call_mqtt: python /config/test-shell/test_mqtt.py > /config/log/log_mqtt.txt

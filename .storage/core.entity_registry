@@ -1,0 +1,89 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.jzijin",
+                "name": null,
+                "platform": "person",
+                "unique_id": "e80d76e14b74404b8cba15501355d0f7"
+            },
+            {
+                "config_entry_id": "ead238bc59fd4150bc2f198ce55b09b6",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.home",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "sensor.iottest_status",
+                "name": null,
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_status"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay4",
+                "name": "relay4",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_4"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay1",
+                "name": "relay1",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_1"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay5",
+                "name": "relay5",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_5"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay6",
+                "name": "relay6",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_6"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay2",
+                "name": "relay2",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_2"
+            },
+            {
+                "config_entry_id": "4e03a79093194874bd3d4473c366f065",
+                "device_id": "3ecfa35f8b894b48885196a2565d4a83",
+                "disabled_by": null,
+                "entity_id": "switch.relay3",
+                "name": "relay3",
+                "platform": "mqtt",
+                "unique_id": "BF5BEC_RL_3"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}
