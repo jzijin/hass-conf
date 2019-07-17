@@ -72,3 +72,12 @@
           switch.turn_off
         {% endif %}
       entity_id: switch.relay6
+  
+- alias: test python script
+  trigger:
+    platform: state
+    entity_id: switch.relay2
+    from: 'off'
+    to: 'on'
+  action: 
+    - service: python_script.test_python

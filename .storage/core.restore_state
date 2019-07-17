@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
             "state": {
                 "attributes": {
                     "editable": true,
@@ -10,90 +10,210 @@
                     "user_id": "428bba45052a4a4fa401b8e42a49cc5c"
                 },
                 "context": {
-                    "id": "0d323d9abf2645668d1ab983609b4ad0",
+                    "id": "bd3852284d0e4bf780bf64c63db9ff9a",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "person.jzijin",
-                "last_changed": "2019-07-16T12:51:00.610252+00:00",
-                "last_updated": "2019-07-16T12:51:09.936877+00:00",
+                "last_changed": "2019-07-16T23:35:48.825331+00:00",
+                "last_updated": "2019-07-16T23:37:58.696369+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "call http script",
                     "last_triggered": "2019-07-16T12:18:20.907998+00:00"
                 },
                 "context": {
-                    "id": "953dadad343c416896057c9ab5add9de",
+                    "id": "adddda4dc1ef4dbf85f0e5d799929ca4",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.call_http_script",
-                "last_changed": "2019-07-16T12:51:00.610381+00:00",
-                "last_updated": "2019-07-16T12:51:00.610381+00:00",
+                "last_changed": "2019-07-16T23:35:48.825458+00:00",
+                "last_updated": "2019-07-16T23:35:48.825458+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Power state on HA start-up",
+                    "last_triggered": "2019-07-16T23:37:58.726713+00:00"
+                },
+                "context": {
+                    "id": "85ea0ddac6a34a14979c95b8d6541ca0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.power_state_on_ha_start_up",
+                "last_changed": "2019-07-16T23:35:48.825575+00:00",
+                "last_updated": "2019-07-16T23:37:58.727007+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "call mqtt script",
                     "last_triggered": "2019-07-16T12:18:37.339836+00:00"
                 },
                 "context": {
-                    "id": "d82d02e3595a4f2aa3d043b51bf59ee3",
+                    "id": "bed1ac1c66224f3ea9593afaf03be7c6",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.call_mqtt_script",
-                "last_changed": "2019-07-16T12:51:00.610492+00:00",
-                "last_updated": "2019-07-16T12:51:00.610492+00:00",
+                "last_changed": "2019-07-16T23:35:48.825682+00:00",
+                "last_updated": "2019-07-16T23:35:48.825682+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "Power state on HA start-up",
-                    "last_triggered": "2019-07-16T12:51:09.947165+00:00"
-                },
-                "context": {
-                    "id": "a48e24c1650948228f47b544c3028738",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "automation.power_state_on_ha_start_up",
-                "last_changed": "2019-07-16T12:51:00.610602+00:00",
-                "last_updated": "2019-07-16T12:51:09.947271+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Enable MQTT discovery for all devices",
-                    "last_triggered": "2019-07-16T12:51:09.949491+00:00"
+                    "last_triggered": "2019-07-16T23:37:58.729805+00:00"
                 },
                 "context": {
-                    "id": "f0120672ece342efbf1366b21c233fc3",
+                    "id": "7c1fa9d99a6649f6868df409cb75585f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "automation.enable_mqtt_discovery_for_all_devices",
-                "last_changed": "2019-07-16T12:51:00.610713+00:00",
-                "last_updated": "2019-07-16T12:51:09.949740+00:00",
+                "last_changed": "2019-07-16T23:35:48.825794+00:00",
+                "last_updated": "2019-07-16T23:37:58.730094+00:00",
                 "state": "on"
             }
         },
         {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "call shell script",
+                    "last_triggered": "2019-07-16T13:21:48.631657+00:00"
+                },
+                "context": {
+                    "id": "2ff991d10e6843b38abdf484992ded59",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "automation.call_shell_script",
+                "last_changed": "2019-07-16T23:35:48.825895+00:00",
+                "last_updated": "2019-07-16T23:35:48.825895+00:00",
+                "state": "on"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay1"
+                },
+                "context": {
+                    "id": "80abf2dc9c754d32b0686db3e3192b0a",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay1",
+                "last_changed": "2019-07-16T23:52:48.124275+00:00",
+                "last_updated": "2019-07-16T23:52:48.124275+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay2"
+                },
+                "context": {
+                    "id": "babf788fe83c4a13820a381f72a8a969",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay2",
+                "last_changed": "2019-07-16T23:52:48.124526+00:00",
+                "last_updated": "2019-07-16T23:52:48.124526+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay3"
+                },
+                "context": {
+                    "id": "b3614a4d79ce4ac1bff83a57209e6d6d",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay3",
+                "last_changed": "2019-07-16T23:52:48.124748+00:00",
+                "last_updated": "2019-07-16T23:52:48.124748+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay4"
+                },
+                "context": {
+                    "id": "35ff8310a07e4319a521d01be4efd6c1",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay4",
+                "last_changed": "2019-07-16T23:52:48.124945+00:00",
+                "last_updated": "2019-07-16T23:52:48.124945+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay5"
+                },
+                "context": {
+                    "id": "1686e632bbf54338830bf76caa086e13",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay5",
+                "last_changed": "2019-07-16T23:52:48.125136+00:00",
+                "last_updated": "2019-07-16T23:52:48.125136+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T23:52:59.002923+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "relay6"
+                },
+                "context": {
+                    "id": "d427b57e282c40fa91110995b7bb7bae",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "switch.relay6",
+                "last_changed": "2019-07-16T23:52:48.125326+00:00",
+                "last_updated": "2019-07-16T23:52:48.125326+00:00",
+                "state": "off"
+            }
+        },
+        {
+            "last_seen": "2019-07-16T14:53:35.088130+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "when the relay1 is on turn the relay6 on",
@@ -108,126 +228,6 @@
                 "last_changed": "2019-07-16T12:51:00.610824+00:00",
                 "last_updated": "2019-07-16T12:51:00.610824+00:00",
                 "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "call shell script",
-                    "last_triggered": "2019-07-16T13:21:48.631657+00:00"
-                },
-                "context": {
-                    "id": "2821b9243fa14ea388db541a38db1c97",
-                    "parent_id": "0739621a407c4a2ca1b05efbfe9d04b6",
-                    "user_id": null
-                },
-                "entity_id": "automation.call_shell_script",
-                "last_changed": "2019-07-16T12:51:00.610959+00:00",
-                "last_updated": "2019-07-16T13:21:48.631933+00:00",
-                "state": "on"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay1"
-                },
-                "context": {
-                    "id": "13422788912f4a8ca57b2ff15e5b1fac",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay1",
-                "last_changed": "2019-07-16T13:21:49.663135+00:00",
-                "last_updated": "2019-07-16T13:21:49.663135+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay2"
-                },
-                "context": {
-                    "id": "a803031645bc4a06a5f660d0d030baf0",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay2",
-                "last_changed": "2019-07-16T12:51:00.631061+00:00",
-                "last_updated": "2019-07-16T12:51:00.631061+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay3"
-                },
-                "context": {
-                    "id": "3b344cd42e594edd8a48ef437bb0e522",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay3",
-                "last_changed": "2019-07-16T12:51:00.631168+00:00",
-                "last_updated": "2019-07-16T12:51:00.631168+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay4"
-                },
-                "context": {
-                    "id": "5749fcd7002b493ba28eb64ff5ebe4ed",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay4",
-                "last_changed": "2019-07-16T12:51:00.631291+00:00",
-                "last_updated": "2019-07-16T12:51:00.631291+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay5"
-                },
-                "context": {
-                    "id": "f25f413a56bf495194b9f1bc840bb2c7",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay5",
-                "last_changed": "2019-07-16T12:51:00.631389+00:00",
-                "last_updated": "2019-07-16T12:51:00.631389+00:00",
-                "state": "off"
-            }
-        },
-        {
-            "last_seen": "2019-07-16T14:51:16.001792+00:00",
-            "state": {
-                "attributes": {
-                    "friendly_name": "relay6"
-                },
-                "context": {
-                    "id": "5e1c7b188cfd44c1b3e564e5203ec390",
-                    "parent_id": null,
-                    "user_id": null
-                },
-                "entity_id": "switch.relay6",
-                "last_changed": "2019-07-16T12:51:00.631492+00:00",
-                "last_updated": "2019-07-16T12:51:00.631492+00:00",
-                "state": "off"
             }
         },
         {
