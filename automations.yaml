@@ -80,4 +80,7 @@
     from: 'off'
     to: 'on'
   action: 
-    - service: python_script.test_python
+    service: python_script.test_python
+    data:
+      name: ming
+      old: 10

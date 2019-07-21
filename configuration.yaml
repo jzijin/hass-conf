@@ -16,7 +16,8 @@ script: !include scripts.yaml
 lovelace:
   mode: yaml
 api: 
-
+# enable  python_script
+python_script: 
 shell_command:
   # can call a general shell
   call_relay: python /config/test-shell/test.py > /config/log/log.txt
@@ -25,5 +26,4 @@ shell_command:
   # can call mqtt shell
   call_mqtt: python /config/test-shell/test_mqtt.py > /config/log/log_mqtt.txt
 
-# enable  python_script
-python_script: 
+

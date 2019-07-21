@@ -1,31 +1,80 @@
-2019-07-17 07:35:48 ERROR (MainThread) [homeassistant.config] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/automations.yaml, line 59). Please check the docs at https://home-assistant.io/components/automation/
-2019-07-17 07:37:58 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:37:58 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 5 seconds.
-2019-07-17 07:37:58 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.power_state_on_ha_start_up. Service not found for call_service at pos 1: Unable to find service mqtt/publish
-2019-07-17 07:37:58 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.enable_mqtt_discovery_for_all_devices. Service not found for call_service at pos 1: Unable to find service mqtt/publish
-2019-07-17 07:40:13 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:40:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 10 seconds.
-2019-07-17 07:42:35 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:42:35 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 20 seconds.
-2019-07-17 07:45:06 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:45:06 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 40 seconds.
-2019-07-17 07:47:56 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:47:56 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
-2019-07-17 07:51:27 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
-2019-07-17 07:51:27 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
-2019-07-17 07:51:53 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
-2019-07-17 07:52:52 WARNING (zeroconf-ServiceBrowser__coap._udp.local.) [zeroconf] Exception occurred:
-Traceback (most recent call last):
-  File "/usr/local/lib/python3.7/site-packages/zeroconf.py", line 2245, in send
-    bytes_sent = s.sendto(packet, 0, (addr, port))
-OSError: [Errno 22] Invalid argument
-2019-07-17 07:53:16 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
-2019-07-17 07:55:50 ERROR (MainThread) [homeassistant.components.shell_command] Error running command: `python /config/test-shell/test_http.py > /config/log/log.txt`, return code: 1
-NoneType: None
-2019-07-17 08:02:55 ERROR (MainThread) [homeassistant.components.homeassistant] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/configuration.yaml, line 13). Please check the docs at https://home-assistant.io/components/automation/
-2019-07-17 08:04:15 ERROR (MainThread) [homeassistant.components.shell_command] Error running command: `python /config/test-shell/test_http.py > /config/log/log.txt`, return code: 1
-NoneType: None
-2019-07-17 08:05:05 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.140274578484640] Received invalid command: shopping_list/items
-2019-07-17 08:05:07 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection.140274578484640] Received invalid command: shopping_list/items
-2019-07-17 08:05:41 ERROR (MainThread) [homeassistant.components.shell_command] Error running command: `python /config/test-shell/test_http.py > /config/log/log.txt`, return code: 1
-NoneType: None
+2019-07-18 20:41:45 ERROR (MainThread) [homeassistant.config] Invalid config for [automation]: two or more values in the same group of exclusion 'service name' @ data['action'][0][<service name>]. Got None. (See /config/automations.yaml, line 59). Please check the docs at https://home-assistant.io/components/automation/
+2019-07-18 20:41:55 WARNING (MainThread) [homeassistant.components.weather] Setup of platform met is taking over 10 seconds.
+2019-07-18 20:41:55 ERROR (MainThread) [metno] https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/ returned 
+2019-07-18 20:41:55 ERROR (MainThread) [homeassistant.components.met.weather] Retrying in 20 minutes
+2019-07-18 20:43:55 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:43:55 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 5 seconds.
+2019-07-18 20:43:55 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.power_state_on_ha_start_up. Service not found for call_service at pos 1: Unable to find service mqtt/publish
+2019-07-18 20:43:55 ERROR (MainThread) [homeassistant.components.automation] Error while executing automation automation.enable_mqtt_discovery_for_all_devices. Service not found for call_service at pos 1: Unable to find service mqtt/publish
+2019-07-18 20:46:10 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:46:10 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 10 seconds.
+2019-07-18 20:48:31 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:48:31 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 20 seconds.
+2019-07-18 20:51:01 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:51:01 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 40 seconds.
+2019-07-18 20:53:51 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:53:51 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 20:57:22 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 20:57:22 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:00:53 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:00:53 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:04:24 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:04:24 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:07:54 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:07:54 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:11:25 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:11:25 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:14:56 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:14:56 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:18:27 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:18:27 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:21:58 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:21:58 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:25:29 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:25:29 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:29:00 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:29:00 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:32:31 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:32:31 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:36:02 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:36:02 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:39:33 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:39:33 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:43:04 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:43:04 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:46:35 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:46:35 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:50:06 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:50:06 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:53:37 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:53:37 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 21:57:08 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 21:57:08 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:00:39 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:00:39 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:04:10 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:04:10 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:07:41 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:07:41 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:11:11 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:11:11 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:14:42 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:14:42 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:18:13 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:18:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:21:44 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:21:44 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:25:15 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:25:15 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:28:46 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:28:46 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:32:17 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:32:17 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:35:48 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:35:48 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:39:19 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:39:19 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:42:50 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:42:50 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-18 22:46:21 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 110] Connection timed out
+2019-07-18 22:46:21 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.

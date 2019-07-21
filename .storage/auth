@@ -62,7 +62,7 @@
                 "created_at": "2019-07-16T11:06:57.793869+00:00",
                 "id": "46803a5a34344e4f896c21f636254a87",
                 "jwt_key": "b620deda84d1906d5baa990d997fc118e1213baffcc440e9481dc16449b70a15e7f5e027ee7e145b0a4427158f5cbf51344b8d217fa9d0c63564e16296167260",
-                "last_used_at": "2019-07-16T23:50:44.685427+00:00",
+                "last_used_at": "2019-07-17T14:16:51.045537+00:00",
                 "last_used_ip": "127.0.0.1",
                 "token": "d446da97f5f2640af6ae0e1f51e8363beac3a6c7a13477febe138b73e86b4dd97e5d9a33fadeb4d354785ab1cec99f44bc4ad85abfa04553b133d856f0398c6b",
                 "token_type": "normal",
