@@ -13,3 +13,4 @@ sudo docker tag kry1702/pause:3.1 k8s.gcr.io/pause:3.1
 sudo docker tag kry1702/etcd:3.3.10 k8s.gcr.io/etcd:3.3.10
 sudo docker tag kry1702/coredns:1.3.1 k8s.gcr.io/coredns:1.3.1
 https://blog.csdn.net/liukuan73/article/details/83116271
+add somet hing
