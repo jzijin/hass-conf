@@ -1,0 +1,16 @@
+
+hostone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: hostone
+  picture:
+  track: true
+
+switch1:
+  hide_if_away: false
+  icon:
+  mac:
+  name: switch1
+  picture:
+  track: true

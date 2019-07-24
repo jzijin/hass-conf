@@ -15,15 +15,19 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 lovelace:
   mode: yaml
-api: 
-# enable  python_script
-python_script: 
-shell_command:
-  # can call a general shell
-  call_relay: python /config/test-shell/test.py > /config/log/log.txt
-  # can call http shell
-  call_http: python /config/test-shell/test_http.py > /config/log/log.txt
-  # can call mqtt shell
-  call_mqtt: python /config/test-shell/test_mqtt.py > /config/log/log_mqtt.txt
+# api: 
+# # enable  python_script
+# python_script: 
+# shell_command:
+#   # can call a general shell
+#   call_relay: python /config/test-shell/test.py > /config/log/log.txt
+#   # can call http shell
+#   call_http: python /config/test-shell/test_http.py > /config/log/log.txt
+#   # can call mqtt shell
+#   call_mqtt: python /config/test-shell/test_mqtt.py > /config/log/log_mqtt.txt
+
+binary_sensor:
+  - platform: ping
+    host: 192.168.0.1
 
 
