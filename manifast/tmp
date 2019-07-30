@@ -5,3 +5,5 @@ helm init --upgrade -i registry.cn-hangzhou.aliyuncs.com/google_containers/tille
 https://blog.frognew.com/
 https://www.servicemesher.com/blog/kubernetes-ingress-controller-deployment-and-ha/
 https://mritd.me/2017/03/04/how-to-use-nginx-ingress/
+https://blog.51cto.com/billy98/2350660
+# 多个master节点的配置
