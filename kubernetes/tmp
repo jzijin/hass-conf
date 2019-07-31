@@ -7,3 +7,8 @@ https://www.servicemesher.com/blog/kubernetes-ingress-controller-deployment-and-
 https://mritd.me/2017/03/04/how-to-use-nginx-ingress/
 https://blog.51cto.com/billy98/2350660
 # 多个master节点的配置
+https://jimmysong.io/kubernetes-handbook/practice/rook.hl
+# haproxy 的配置也许值得参考
+https://blog.csdn.net/chenleiking/article/details/84841394
+# 多节点负载 配置 参考
+https://jimmysong.io/kubernetes-handbook/practice/master-ha.html
