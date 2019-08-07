@@ -1,0 +1,16 @@
+apiVersion: extensions/v1neta1
+kind: Ingress
+metadata:
+  name: ingress-myapp
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: jzijn.com
+    http:
+      paths:
+      - path:
+        backend:
+          serviceName: myapp
+          servicePort: 80

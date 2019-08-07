@@ -12,3 +12,9 @@ https://jimmysong.io/kubernetes-handbook/practice/rook.hl
 https://blog.csdn.net/chenleiking/article/details/84841394
 # 多节点负载 配置 参考
 https://jimmysong.io/kubernetes-handbook/practice/master-ha.html
+# rook ceph
+http://www.yangguanjun.com/2018/12/22/rook-ceph-practice-part1/
+# ingress 官网
+https://kubernetes.github.io/ingress-nginx/deploy/#using-helm
+# Failed to 
+https://rook.io/docs/rook/v1.0/ceph-common-issues.html
