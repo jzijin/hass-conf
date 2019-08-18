@@ -1,0 +1,108 @@
+                          etcd
+What is etcd:
+  A highly-available key value store for shared configuration and service
+discovery.etcd基于Raft协议,通过复制日志文件的方式来保证数据的强一致性。当
+客户端应用写一个key时,首先会存储到etcd的Leader上,然后再通过Raft协议复制到
+etcd集群的所有成员中,以此维护各成员(节点)状态的一致性与实现可靠性。
+  etcd 具有一定的容错能力,假设集群中共有 n 个节点,即便集群中( n-1 )/2
+个节点发生了故 障,只要剩下的 ( n+l ) /2 个节点达成一致, 也能操作成功 。 因
+此,它能够有效地应对网络分区和机器故障带来的数据丢失风险 。
+  etcd 默认数据一更新就落盘持久化,数据持久化存储使用 WAL (write
+ahead log ,预写式日志)格式 。 WAL 记录了数据变化的全过程,在 etcd 中所有
+数据在提交之前都要先写人 WAL 中; etcd 的 Snapshot (快照)文件则存储了某
+一时刻 etcd 的所有数据,默认设置为每 10 000 条记录做一次快照,经过快照后
+WAL 文件即可删除 。
+
+basic etcd command:
+  version command to show etcd version:
+    etcdctl version
+  put command to write:
+    etcdctl put key value
+  get command to read:
+    etcdctl get key
+    etcdctl --write-out=json get key
+    etcdctl get key --prefix
+    etcdctl get key key3(read from key1 key2 key3)
+    etcdctl get --rev=8 key # access the versions of keys at revision3
+  del command to delete:
+    etcdctl del key
+    etcdctl del key --prefix
+    etcdctl del key key9
+  txn command to wrap multiple requests into one transaction:
+    etcdctl txn --interactive
+  watch command to get notified of future change:
+    etcdctl watch key 
+    etcdctl watch key --prefix
+    etcdctl watch key key9 
+  compact command to compact the revisions:
+    etcdctl compact 5
+  lease command 
+    etcdctl lease grant 100
+    etcdctl put key value --lease=...
+    etcdctl lease revoke $leaseName
+    etcdctl lease keep-alive $leaseName
+  endpoint status command to show status of cluster
+    etcdctl --endpoints=$ENDPOINTS endpoint status
+  snapshot save command to save snapshot of etcd database
+    etcdctl snapshot save data.db
+  migrate command to transfrom etcd v2 to v3
+    etcdctl migrate --data-dir="$dataDir" --wal-dir="$walDir"
+
+使用etcdctl访问kubernetes数据
+查看集群中所有的Pod信息:
+what stores Kubernetes in Etcd
+https://jakubbujny.com/2018/09/02/what-stores-kubernetes-in-etcd/
+
+
+
+ETCDCTL_API=3 etcdctl get /registry/pods --prefix -w json|python -m json.tool
+ETCDCTL_API=3 etcdctl --cacert=/etc/kubernetes/pki/etcd/ca.crt \
+--cert=/etc/kubernetes/pki/etcd/peer.crt \
+--key=/etc/kubernetes/pki/etcd/peer.key \
+get /registry/namespaces/default -w=json | jq 
+
+
+echo $base64 | base64 -d
+#!/bin/bash
+# Get kubernetes keys from etcd
+export ETCDCTL_API=3
+keys=`etcdctl get /registry --prefix -w json|python -m json.tool|grep key|cut -d ":" -f2|tr -d '"'|tr -d ","`
+for x in $keys;do
+  echo $x|base64 -d|sort
+done
+
+
+以下是etcd中存储的kubernetes所有的元数据类型：
+ThirdPartyResourceData
+apiextensions.k8s.io
+apiregistration.k8s.io
+certificatesigningrequests
+clusterrolebindings
+clusterroles
+configmaps
+controllerrevisions
+controllers
+daemonsets
+deployments
+events
+horizontalpodautoscalers
+ingress
+limitranges
+minions
+monitoring.coreos.com
+namespaces
+persistentvolumeclaims
+persistentvolumes
+poddisruptionbudgets
+pods
+ranges
+replicasets
+resourcequotas
+rolebindings
+roles
+secrets
+serviceaccounts
+services
+statefulsets
+storageclasses
+thirdpartyresources

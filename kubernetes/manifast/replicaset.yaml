@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: myapp
-  namespace: default
+  namespace: defualt
 spec:
   replicas: 2
   selector:
@@ -10,7 +10,7 @@ spec:
       app: myapp
       release: canary
   template:
-    metadata: 
+    metadata:
       name: myapp-pod
       labels:
         app: myapp
@@ -23,4 +23,3 @@ spec:
         ports:
         - name: http
           containerPort: 80
-
