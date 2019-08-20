@@ -1,0 +1,6 @@
+https://www.infoq.cn/article/5OtkSYp1KA4TsG-oYqgF
+https://github.com/search?q=kubernetes+health
+https://www.freebuf.com/news/196993.html
+https://jishu.io/kubernetes/load-testing-with-kubernetes/
+https://jimmysong.io/kubernetes-handbook/practice/network-and-cluster-perfermance-test.html
+# test github
